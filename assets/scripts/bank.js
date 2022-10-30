@@ -18,7 +18,7 @@ const cadastrarConta = (evento) => {
     } else {
       alert('Senhas diferentes')
     }
-  }
+}
 
 const confirmaSenhas = (evento) => {
 if(evento.target.senha.value == evento.target.confirmacao.value)
@@ -28,3 +28,4 @@ return false
 
 const form = document.getElementById('form')
 form.addEventListener('submit', cadastrarConta)
+

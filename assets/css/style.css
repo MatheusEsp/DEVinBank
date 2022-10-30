@@ -25,6 +25,7 @@ header{
     color: var(--cor);
 }
 main{
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -41,8 +42,19 @@ body{
     min-height: 100vh;
     justify-content: space-between;
 }
+input,select{
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    color: #000;
+}
+button{
+    border-radius: 3px;
+}
+       
 .principal{
     display: flex;
+    flex-direction: column;
     flex: 1;
 
 }
@@ -55,4 +67,12 @@ body{
 .rodape{
     padding: 15px;
     background-color: var(--cor4);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formulario{
+    margin-top: 20px;
 }

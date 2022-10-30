@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link rel="stylesheet" href="assets/css/style.css"> 
     <title>DEVinHouse[PHILIPS]</title>
 </head>
 <body>
@@ -23,29 +22,54 @@
                 <label for="nome">Nome:</label>
                 <input required id="nome" />
               </div>
-    
               <div>
                 <label for="cpf">CPF:</label>
                 <input required id="cpf" />
               </div>
-    
               <div>
                 <label for="celular">Celular:</label>
                 <input required type="number" id="celular" />
               </div>
-    
               <div>
                 <label for="senha">Senha:</label>
                 <input required id="senha" />
               </div>
-    
               <div>
                 <label for="confirmacao">Confirmar senha: </label>
                 <input required id="confirmacao" />
               </div>
-    
               <div>
                 <button type="submit" class="button">Cadastrar</button>
+                <button type="reset" class="button">Limpar</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="formulario">
+            <h2>Operações</h2>
+            <form id="form-acoe" class="form">
+              <div>
+                <label for="operacao">Operacão:</label>
+                <select id="operacao" required>
+                  <option value="SAQUE">Saque</option>
+                  <option value="DEPOSITO">Depósito</option>
+                  <option value="SALDO">Consulta Saldo</option>
+                </select>
+              </div>
+              <div>
+                <label for="valor">Valor:</label>
+                <input id="valor" required />
+              </div>
+              <div>
+                <label for="conta">Conta:</label>
+                <input id="conta" type="number" required />
+              </div>
+              <div>
+                <label for="senha">Senha:</label>
+                <input id="senha" required />
+              </div>
+              <div>
+                <button type="submit" class="button">Confirmar</button>
                 <button type="reset" class="button">Limpar</button>
               </div>
             </form>
