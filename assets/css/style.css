@@ -76,3 +76,24 @@ button{
 .formulario{
     margin-top: 20px;
 }
+.botao-cadastro,.botao-acao{
+    padding-left: 190px;
+}
+.nome{
+    margin-left: 10px;
+}
+.cpf{
+    margin-left: 19px
+}
+.senha{
+    margin-left: 5px
+}
+.valor{
+    margin-left: 12px;
+}
+.conta{
+    margin-left: 6px;
+}
+.senha2{
+    margin-left: 2px;
+}
